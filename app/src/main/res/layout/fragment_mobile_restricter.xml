@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.fiendfyre.AdHell2.fragments.MobileRestricterFragment">
+    tools:context="com.layoutxml.sabs.fragments.MobileRestricterFragment">
 
     <EditText
         android:id="@+id/disabledFilter"
