@@ -5,13 +5,13 @@
         android:id="@+id/action_pack_dis_reload"
         android:icon="@drawable/ic_refresh"
         android:orderInCategory="100"
-        android:title="Reload"
+        android:title="@string/reload"
         app:showAsAction="always"/>
     <item
         android:id="@+id/action_pack_dis_sort"
         android:icon="?ic_sort"
         android:orderInCategory="100"
-        android:title="Sort"
+        android:title="@string/sort"
         app:showAsAction="always">
         <menu>
             <item android:title="@string/sort_by_alphabet" android:id="@+id/sort_alphabetically_item"/>
@@ -23,8 +23,8 @@
         android:id="@+id/action_overflow"
         android:icon="@drawable/ic_more_vert"
         android:orderInCategory="100"
-        android:title="Overflow"
-        app:showAsAction="always">
+        android:title="@string/options"
+        app:showAsAction="ifRoom">
         <menu>
             <item
                 android:id="@+id/restricter_import_storage"
